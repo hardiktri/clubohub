@@ -1,0 +1,9 @@
+{
+    "username": "RkKTW8aaxx",
+    "password": "SwdVr3Z9",
+    "secret": "GUYv6Qpf26PaDc2Q",
+    "mercid": "298024",
+    "keyEncry" :  "5PbpCqeioHQ3MWj6dJVeluXDE7UttN8P",
+    "keyDecry" : "5PbpCqeioHQ3MWj6dJVeluXDE7UttN8P",
+    "success_url" : "https://clubohub.com/app/airpay_php/responsefromairpay.php"
+}

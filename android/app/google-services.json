@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "557907864181",
+    "project_id": "club-o-hub-new",
+    "storage_bucket": "club-o-hub-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557907864181:android:36c6565a626de4a6eee63c",
+        "android_client_info": {
+          "package_name": "com.clubohub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWQhdD5UDt1NUGoS3Y5p6LuD-TxWl4WPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
