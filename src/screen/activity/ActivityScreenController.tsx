@@ -58,7 +58,11 @@ export default class ActivityScreenController extends Component<Props, S, SS> {
     this.getClubsList();
   }
   getClubsList = async () => {
+   
     let id = await getdata('id');
+
+    console.log("getClubsList called <<<<")
+    console.log(id)
     // let id = 6;
     let url = `${apiFunctions.getclubs}?user_id=${id}`;
     const responseData = await makeApiCall(url, 'GET', null);

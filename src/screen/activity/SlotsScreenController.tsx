@@ -52,6 +52,9 @@ export default class SlotsScreenController extends Component<Props, S, SS> {
   }
   goToMemberScreen() {
     const { todayDate, courtIndex, slotIndex, activity_id } = this.state;
+
+    console.log("goToMemberScreen selectedClubId <<<<<<")
+    console.log(this.props.route.params.selectedClubId)
     this.props.navigation.navigate('MemberSelection', {
       data: {
         todayDate,
@@ -59,6 +62,8 @@ export default class SlotsScreenController extends Component<Props, S, SS> {
         slotIndex,
         activity_id,
         type: 'activity',
+        selectedClubId: this.props.route.params.selectedClubId, // Pass the selected club ID
+
       },
 
       activityDetail: this.state.activityDetail

@@ -102,7 +102,10 @@ export default class ActivityScreen extends ActivityScreenController {
                     onPress={() =>
                       this.props.navigation.navigate('SlotsScreen', {
                         activityDetail: item,
+                        selectedClubId: this.state.selectedClubDetails.id, // Pass the selected club ID
+
                       })
+                      
                     }
                     style={[styles.activityStyle]}>
                     <Image

@@ -4,6 +4,9 @@ const makeApiCall = async (endpoint, method, body = null) => {
   console.log('api', endpoint, method, body);
   const apiUrl = `${apiFunctions.url}${endpoint}`;
   let token = await getdata('token');
+
+  console.log("token <<<")
+  console.log(token)
   console.log(apiUrl);
 
   const headers = {

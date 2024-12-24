@@ -174,6 +174,7 @@ export default class MemberSelectionController extends Component<Props, S, SS> {
         members_ids: selectedMemberIdArray,
         members_names: selectedNamesArray,
         guest_names: guestMembersName,
+        selectedClubId:propsData?.selectedClubId
       },
     });
   }

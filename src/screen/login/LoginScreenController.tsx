@@ -35,6 +35,8 @@ export default class LoginScreenController extends Component<Props, S, SS> {
       return showtoasterror('Please enter valid phone number.');
     }
     let data = new FormData();
+    console.log("data <<<<<")
+    console.log(data)
     data.append('mobile_no', this.state.phoneNumber);
     const responseData = await makeApiCall(apiFunctions.login, 'POST', data);
     console.log('responseData:::--->', responseData);

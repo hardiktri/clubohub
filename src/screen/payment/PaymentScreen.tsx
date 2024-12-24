@@ -1,5 +1,6 @@
 import * as React from 'react';
 import {
+  Alert,
   Image,
   Modal,
   StyleSheet,
@@ -21,6 +22,12 @@ export default class PaymentScreen extends PaymentScreenController {
   constructor(props: Props) {
     super(props);
   }
+//   async componentDidMount() {
+
+// Alert.alert(JSON(this.props.route.params)) 
+// // this.fetchSelectedClubDetails();
+
+// }
   PopupModal = () => {
     return (
       <Modal
